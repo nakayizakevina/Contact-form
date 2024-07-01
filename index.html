@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
    <main>
@@ -17,10 +18,28 @@
     <label for="Email" required>Email</label>
     <input type="email">
 
-    <fieldset>
-        <input type="radio" placeholder="General Enquiry">
-        <input type="radio" placeholder="Support Request">
-    </fieldset>
+    <div>
+        <div>
+            <input type="radio">
+            <p>General Enquiry</p>
+        </div>
+       <div>
+        <input type="radio">
+        <p>Support Request</p>
+       </div>
+        
+    </div>
+
+    <p>Message</p>
+    <input type="text" required>
+        <div>
+            <input type="radio">
+            <p>I consent to being contacted by the team</p>
+        </div>
+
+        <button>Submit</button>
+
+
    </main>
 </body>
 </html>
