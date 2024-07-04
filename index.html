@@ -7,30 +7,32 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <main>
+   <main class="main-container">
     <h1>Contact Us</h1>
-    <fieldset>
-        <label for="first name" required>First Name</label>
-        <input type="text">
-        <label for="first name" required>Second Name</label>
-        <input type="text">
-    </fieldset>
-    <label for="Email" required>Email</label>
-    <input type="email">
-
-    <div>
-        <div>
-            <input type="radio">
-            <p>General Enquiry</p>
+    <div >
+        <div class="personalInfo">
+            <label for="first name" required>First Name</label>
+            <input type="text">
+            <label for="first name" required>Second Name</label>
+            <input type="text">
+            <label for="Email" required>Email</label>
+            <input type="email">
         </div>
-       <div>
-        <input type="radio">
-        <p>Support Request</p>
-       </div>
         
-    </div>
 
-    <p>Message</p>
+        <div>
+            <div class="option">
+                <input type="radio">
+                <p>General Enquiry</p>
+            </div>
+           <div class="option">
+            <input type="radio">
+            <p>Support Request</p>
+           </div>
+            
+        </div>
+      
+        <p>Message</p>
     <input type="text" required>
         <div>
             <input type="radio">
@@ -39,6 +41,12 @@
 
         <button>Submit</button>
 
+    </div>
+   
+
+    
+
+    
 
    </main>
 </body>
