@@ -65,7 +65,7 @@ button{
     border-radius:5px;
     border: none;
     background-color: hsl(169, 82%, 27%) ;
-    text-decoration-color:white ;
+    text-decoration-color:hsl(0, 0%, 100%);
     
 }
 
