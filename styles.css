@@ -31,6 +31,11 @@ body{
      gap: 12px;
 }
 
+.personal{
+    display: flex;
+    flex-direction: column;
+     gap: 12px; 
+}
 .personalfields{
     height:30px;
     border-radius:5px;
@@ -74,4 +79,50 @@ button{
     flex-direction:row;
     align-items: center;
     gap:2px;
+}
+
+@media screen and (min-width:1440px){
+
+    body{
+         display: flex;
+         flex-direction: column;
+         justify-items: center;
+         /* align-items: center;   */
+                       
+    }
+     
+    .main-container{
+        width:35%;
+        height:80%; 
+    }
+
+    .personalInfo{
+        width:100%; 
+        display: flex;
+        flex-direction:row;
+        gap: 12px;
+
+    }
+   .personal{
+    width:100%;
+    
+    
+   }
+    .personalfields{
+       width: 100%;
+    
+    }
+
+    .option{
+
+        width:100%;
+        display: flex;
+        flex-direction:row;
+        gap: 12px;
+    }
+    .input{
+        width: 50%;
+    }
+
+    
 }
