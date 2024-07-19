@@ -63,6 +63,10 @@ body{
     margin-top: 5px;
 }
 
+.message{
+  text-align: left; 
+  /* padding-left: 1px; */
+} 
 
 button{
     width: 100%;
@@ -81,13 +85,15 @@ button{
     gap:2px;
 }
 
+
+
 @media screen and (min-width:1440px){
 
     body{
          display: flex;
          flex-direction: column;
          justify-items: center;
-         /* align-items: center;   */
+         
                        
     }
      
