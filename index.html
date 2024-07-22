@@ -14,7 +14,7 @@
         <div class="personalInfo">
             <div class="personal">
                 <label for="first name" required>First Name</label>
-                <input class="personalfields"type="text">
+                <input class="personalfields" type="text">
             </div>
             <div class="personal">
                 <label  for="first name" required>Second Name</label>
@@ -31,26 +31,26 @@
           <p>Query Type</p>
         <div class="option">
             <div class="input">
-                <input type="radio" >
-                <p>General Enquiry</p>
+                <input type="radio" name="options" id="Enquiry">
+                <label for="Enquiry">General Enquiry</label>
+              
             </div>
            <div class="input">
-            <input type="radio">
-            <p>Support Request</p>
+            <input type="radio" name="options" id="Request">
+            <label for="Request">Support Request</label>
            </div>
             
         </div>
         <div class="msg-section">
             <label for="message">Message</label>
-        <textarea id="message" name="message"  class="message">
-        </textarea>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
         </div>
         <div class="agree">
-            <input type="radio">
+            <input type="radio" name="agree">
             <p>I consent to being contacted by the team</p>
         </div>
 
-        <button>Submit</button>
+        <button type="submit" id="submit">Submit</button>
 
  
    

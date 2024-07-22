@@ -25,10 +25,9 @@ body{
 
 .personalInfo{
     width:100%; 
-
     display: flex;
     flex-direction: column;
-     gap: 12px;
+    gap: 12px;
 }
 
 .personal{
@@ -51,6 +50,7 @@ body{
 }
 
 .input{
+    padding: 8px;
     border:1px solid black;
     display: flex;
     flex-direction: row;
@@ -63,18 +63,16 @@ body{
     margin-top: 5px;
 }
 
-.message{
-  text-align: left; 
-  /* padding-left: 1px; */
-} 
 
-button{
+
+#submit{
     width: 100%;
     padding:10px;
     border-radius:5px;
     border: none;
     background-color: hsl(169, 82%, 27%) ;
-    text-decoration-color:hsl(0, 0%, 100%);
+     text-decoration-color:hsl(0, 0%, 100%); 
+    
     
 }
 
